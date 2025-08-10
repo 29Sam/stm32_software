@@ -1,0 +1,3 @@
+hardware set is  3-3.3 V like the pico 
+and hardware reset is 0 V like the pico
+-controllable through the gpio pins of course 
