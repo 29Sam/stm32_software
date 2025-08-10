@@ -1,3 +1,7 @@
 hardware set is  3-3.3 V like the pico 
 and hardware reset is 0 V like the pico
--controllable through the gpio pins of course 
+-controllable through the gpio output pins of course 
+
+
+other than that we also have the gpio input pins which can read the voltage on these pins of course 
+some threshold exists , say 1.5 v , SO IF the voltage on the gpio input pin >threshoild voltage - then software reads 1 else it reads 0
