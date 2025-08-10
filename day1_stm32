@@ -5,3 +5,9 @@ and hardware reset is 0 V like the pico
 
 other than that we also have the gpio input pins which can read the voltage on these pins of course 
 some threshold exists , say 1.5 v , SO IF the voltage on the gpio input pin >threshoild voltage - then software reads 1 else it reads 0
+
+
+need for pull up and pull down resistors , explained in day 1 
+they are needed to determine the state of the switch whether the switch is on or off .
+pull up resistor when for switch closed you need o reading on your input pin. (resistor towards the vdd side)
+pull down resistor when for switch closed you need 1 reading on gpio input pin (resistor toward the gnd side)
