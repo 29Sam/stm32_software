@@ -11,3 +11,7 @@ need for pull up and pull down resistors , explained in day 1
 they are needed to determine the state of the switch whether the switch is on or off .
 pull up resistor when for switch closed you need o reading on your input pin. (resistor towards the vdd side)
 pull down resistor when for switch closed you need 1 reading on gpio input pin (resistor toward the gnd side)
+
+
+the good thing is that stm32 already has pull up and pull down resistor that can be used by just writing a small piece of code so that we dont need to use external ones .
+
