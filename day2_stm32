@@ -1,0 +1,8 @@
+1) A workspace is a container that includes project folders or information about project folders, and
+a .metadata folder that contains information about the projects. A workspace is simply a folder on a hard drive, which can be located anywhere in the storage media
+
+  workspace can be changed at any time the ide wakes up
+
+STM32 GETTING STARTED - INSTALLATION OF KIEL IDE 
+  (SET UP ON WINDOWS PARALLEL)
+  BLUEPILL BOARD STM32 WE HAVE 
